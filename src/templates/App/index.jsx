@@ -1,7 +1,11 @@
+import * as Styled from './syles';
+
 function Home() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      <Styled.Wrapper background="yellow">
+        <h1>Hello!</h1>
+      </Styled.Wrapper>
     </div>
   );
 }
